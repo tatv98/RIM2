@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="default"
+        android:title="@string/pref_cat_connection" >
+        <ListPreference
+            android:defaultValue="Bluetooth"
+            android:entries="@array/connection_types"
+            android:entryValues="@array/connection_types"
+            android:key="connection_type"
+            android:summary="%s"
+            android:title="@string/pref_connection" />
+        <ListPreference
+            android:defaultValue="Slave"            
+            android:entries="@array/connection_mode"
+            android:entryValues="@array/connection_mode"
+            android:key="connection_mode"
+            android:summary="%s"
+            android:title="@string/pref_connection_mode" />
+        <ListPreference
+            android:defaultValue="-1"
+            android:key="device_id"
+            android:summary="%s"
+            android:title="@string/pref_device" />
+        <ListPreference
+            android:defaultValue="9600"
+            android:entries="@array/baudrate"
+            android:entryValues="@array/baudrate"
+            android:key="device_baudrate"
+            android:summary="%s"
+            android:title="@string/pref_baudrate" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="volume"
+        android:title="@string/pref_cat_volume" >
+        <SwitchPreference
+            android:defaultValue="fasle"
+            android:key="volume_change_ui"
+            android:title="@string/pref_volume_change_ui" />
+        <SwitchPreference
+            android:defaultValue="fasle"
+            android:key="volume_change_sound"
+            android:title="@string/pref_volume_change_sound" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Remote Inputs Manager</string>
+    <string name="app_settings">Settings</string>
+    <string name="pref_cat_connection">Connection</string>
+    <string name="pref_cat_volume">Volume</string>
+    <string name="pref_connection">Connection</string>
+    <string name="pref_connection_mode">Device mode</string>
+    <string name="pref_device">Device</string>
+    <string name="pref_baudrate">Baudrate</string>
+    <string name="pref_volume_change_ui">Show volume UI on volume change</string>
+    <string name="pref_volume_change_sound">Play sound on volume change</string>
+    <string name="menu_button_settings">Register Button</string>
+    <string name="title_edit_button_settings">Edit Button</string>
+    <string name="title_create_button_settings">Register new Button</string>
+    <string name="register_button_description">By pressing a button a few times, usually,\nyou will get different button values (debounce).\nTo get the button been detected correct,\nyou have to set correct  debounce error.</string>
+    <string name="title_select_application">Select Application</string>
+    <string name="title_select_tasker_tasks">Select Tasker tasks</string>
+    <string name="hold_action">On Hold:</string>
+    <string name="click_action">On Click:</string>
+    <string name="button_error">+/-</string>
+
+    <string-array name="connection_types">
+        <item>Bluetooth</item>
+        <item>USB</item>
+    </string-array>
+    <string-array name="connection_mode">
+        <item>Slave</item>
+        <item>Master</item>
+    </string-array>
+    <string-array name="baudrate">
+        <item>1200</item>
+        <item>2400</item>
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+        <item>230400</item>
+        <item>460800</item>
+        <item>921600</item>
+        <item>1382400</item>
+    </string-array>
+    <string-array name="button_errors">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="action_types">
+        <item>None</item>
+        <item>Volume</item>
+        <item>Media</item>
+        <item>Application</item>
+        <item>Tasker shortcut</item>
+    </string-array>
+    <string-array name="volume_actions">
+        <item>Volum Up</item>
+        <item>Volum Down</item>
+        <item>Mute</item>
+    </string-array>
+    <string-array name="media_actions">
+        <item>Rewind</item>
+        <item>Previous</item>
+        <item>Play/Pause</item>
+        <item>Next</item>
+        <item>Fast forward</item>
+    </string-array>
+
+</resources>

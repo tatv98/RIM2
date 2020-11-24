@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- FTDI VID:0x0403 -->
+    <usb-device vendor-id="1027" />
+    <!-- Arduino VID:0x2341 PID:0x0043 -->
+    <usb-device vendor-id="9025" />
+    <!-- Freetronics VID:0x26BA PID:0x0003 -->
+    <usb-device vendor-id="9914" />
+
+</resources>
